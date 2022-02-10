@@ -1,0 +1,115 @@
+
+.basic{
+position: relative;
+margin: 8px 0px;
+text-transform: uppercase;
+}
+.basic::after{
+    content: "";
+    position: absolute;
+    top: 111%;
+    left: 44%;
+    background-color:#D18939;
+    height: 3px;
+    width: 6%;
+    border-radius: 4px;
+   
+    
+}
+/* abut us part  */
+.new{
+  background-image:url(../../imge/mariam/c10.jpg);
+  background-repeat: no-repeat;
+background-position: center;}
+  .btn.btn-mod{
+    background-color: #D18939;
+  }
+.new-afftr{
+  position: relative;
+}
+.new-afftr::after{
+  content: '';
+    height: 50px;
+    width: 2px;
+    background: #be9c79;
+    position: absolute;
+    left: 50%;
+    top:100%;
+   
+}
+/* abut us part end  */
+
+
+/* counters part start */
+.coffee{
+background-image: url(../../imge/mariam/parallax.jpg);
+background-size: cover;
+background-attachment:fixed;
+height: 100%;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+
+/* counters part start end */
+/* */
+
+    .product-itme{
+    
+      position: relative;
+    }
+    .product-itme .layer-content{
+      position: absolute;
+      top: 5%;
+      left: 4%;
+      width: 100%;
+      height: 100%;
+      opacity:0 ;
+      transition:opacity 0.5s;
+    }
+    .product-itme:hover .layer-content{
+      opacity: 1;
+    }
+    .layer-content .layer-content_info{
+      position: absolute;
+      left: 88%;
+      top: 16%;
+      transform: translate(-50%,-50%);
+    }
+    .layer-content a {
+      display: block;
+      background-color: white;
+      width: 97%;
+      height:35%;
+      color: rgba(27, 22, 22, 0.87);
+      border: 12px white solid;
+    }
+    .layer-content a:hover{
+      color:#D18939;
+    }
+    .product .product-itme .product-itme_imges .img-1{
+      width: 100%;
+    
+      background-size: cover;
+    }
+    .product .product-itme .product-itme_imges .img-2{
+      width: 100%;
+    
+      display: none;
+    }
+ 
+  
+  .product-prices span{
+  color: rgba(255, 217, 0, 0.664);
+
+  }
+  .product-prices:hover{
+color: #D18939;
+  }
+   
+    
+.product .product-itme:hover .img-1{display: none;}
+
+.product .product-itme:hover .img-2{display: block;}
+
